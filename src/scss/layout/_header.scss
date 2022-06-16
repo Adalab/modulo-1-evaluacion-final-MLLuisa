@@ -27,7 +27,7 @@
 }
 
 .header-icon {
-    position: absolute;
+    position: fixed;
     top: 55px;
     left: 33px;
 }
@@ -40,18 +40,20 @@
 .header-title {
     margin-bottom: 40px;
     color: $primary-color;
-    font-family: $font-page;
+    font-family: $font-titles;
 }
 
 .header-button {
-    width: 150px;
-    height: 40px;
+    width: 176px;
+    height: 48px;
     background-color: $primary-color;
     color: white;
     text-align: center;
     font-weight: bold;
-    font-family: $font-page;
+    font-family: $font-titles;
     font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
     
 }
 

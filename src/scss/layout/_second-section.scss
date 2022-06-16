@@ -1,0 +1,19 @@
+.second-section {
+    background-color: $background-second-section;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 352px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+
+.second-section-image {
+    position: sticky;
+    padding-top: 10px;
+}
+
+.link-second-section {
+    padding-bottom: 5px;
+}
