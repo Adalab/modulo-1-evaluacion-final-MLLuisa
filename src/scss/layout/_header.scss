@@ -1,1 +1,57 @@
 // Css header
+.header {
+    height: 100vh;
+    background-image: url(https://raw.githubusercontent.com/Adalab/modulo-1-evaluacion-final-MLLuisa/main/src/images/header.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-header-image {
+    width: 100%;
+    object-fit: cover;
+}
+
+.header-main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    height: 57vh;
+}
+
+.header-logo {
+    width: 250px;
+    margin-top: 19px;
+}
+
+.header-icon {
+    position: absolute;
+    top: 55px;
+    left: 33px;
+}
+
+.icon-menu {
+    width: 24px;
+    height: 24px;
+}
+
+.header-title {
+    margin-bottom: 40px;
+    color: $primary-color;
+    font-family: $font-page;
+}
+
+.header-button {
+    width: 150px;
+    height: 40px;
+    background-color: $primary-color;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: $font-page;
+    font-size: 16px;
+    
+}
+
