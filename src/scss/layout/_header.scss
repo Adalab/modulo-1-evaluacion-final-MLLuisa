@@ -24,6 +24,12 @@
     align-items: center;
     padding-top: 10px;
     height: 57vh;
+    @media all and (min-width:900px) {
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-top: 200px;
+        padding-left: 147px;
+    }
 }
 
 .header-logo-wrapper {
