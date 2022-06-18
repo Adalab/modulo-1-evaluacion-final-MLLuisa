@@ -8,6 +8,10 @@
     padding-bottom: 40px;
     text-align: center;
     line-height: 50px;
+    @media all and (min-width: 1728px) {
+        width: 50%;
+        height: auto;
+    }
 }
 
 .div-third-section {
@@ -32,3 +36,10 @@
     letter-spacing: 1px;
     text-transform: capitalize;  
  }
+
+ @media all and (min-width: 1728px) {
+    .main-wrapper-third-fourth-section {
+        display: flex;
+        flex-direction: row;
+ }
+}
