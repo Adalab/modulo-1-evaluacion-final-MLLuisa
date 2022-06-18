@@ -14,4 +14,15 @@
 .item-1 {
     margin-left: 45px;
     margin-right: 36px;
+    @media all and (min-width: 900px) {
+        grid-column: span 3;
+    }
+}
+
+@media all and (min-width: 900px) {
+    .first-section {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: none;
+        padding: 30px;
+}
 }
