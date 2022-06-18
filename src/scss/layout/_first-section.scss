@@ -5,10 +5,20 @@
     grid-template-rows: 50px 1fr 1fr 1fr;
     gap: 31px;
     padding: 30px 0;
+    color: $primary-color;
 }
 
 .item-1, .item-2, .item-3, .item-4 {
     text-align: center;
+}
+
+.first-title-section {
+    font-family: $font-titles;
+    font-size: 36px;
+}
+
+.second-title-section {
+    font-size: 26px;
 }
 
 .item-1 {

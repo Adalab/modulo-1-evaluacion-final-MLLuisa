@@ -36,8 +36,13 @@ a {
 
 .footer-title-list{
     color: $color-title-footer;
-    font-size: 20px;
+    font-size: 24px;
     padding-bottom: 10px;
+    font-family: $font-titles;
+}
+
+.footer-list {
+    font-size: 16px;
 }
 
 .fa {
@@ -49,6 +54,7 @@ a {
 
 .list-div-3 {
     list-style: none;
+    font-size: 16px;
 }
 
 .footer-links {

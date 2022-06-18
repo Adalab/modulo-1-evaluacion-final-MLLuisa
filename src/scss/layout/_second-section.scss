@@ -7,6 +7,7 @@
     height: 352px;
     padding-bottom: 40px;
     padding-top: 10px;
+    color: $secundary-color;
 }
 
 .second-section-image {
@@ -17,4 +18,9 @@
 .link-second-section {
     padding-bottom: 5px;
     text-decoration: underline;
+}
+
+.title-second-section {
+    font-family: $font-titles;
+    font-size: 36px;
 }

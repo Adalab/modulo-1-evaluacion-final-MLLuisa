@@ -8,6 +8,7 @@
     padding-bottom: 40px;
     text-align: center;
     line-height: 50px;
+    color: $primary-color;
     @media all and (min-width: 1728px) {
         width: 50%;
         height: auto;
@@ -22,6 +23,15 @@
     height: 50px;
     padding-top: 50px;
 
+}
+
+.title-third-section {
+    font-family: $font-titles;
+    font-size: 36px;
+}
+
+.text-third-section {
+    font-size: 16px;
 }
 
 .button-third-section {
