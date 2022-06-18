@@ -10,6 +10,9 @@
 
 .list-header {
     display: none;
+    @media all and (min-width: 1728px) {
+        display: flex;
+    }
 }
 
 .main-header-image {
@@ -46,6 +49,9 @@
     position: fixed;
     top: 55px;
     left: 33px;
+    @media all and (min-width:1728px) {
+        display: none;
+    }
 }
 
 .icon-menu {
@@ -59,7 +65,7 @@
     font-family: $font-titles;
 }
 
-.header-button {
+.header-button{
     width: 176px;
     height: 48px;
     background-color: $primary-color;
@@ -72,3 +78,24 @@
     text-transform: capitalize;  
 }
 
+.header-button:hover {
+    background-color: orange;
+}
+
+@media all and (min-width: 1728px) {
+.list-header-menu {
+    display: flex;
+    text-decoration: none;
+    gap: 90px;
+    padding-left: 100px;
+    padding-top: 20px;
+    font-size: 16px;
+    color: $primary-color;
+}
+}
+
+@media all and (min-width: 1728px) {
+    .menu-list {
+        list-style: none;
+    }
+}

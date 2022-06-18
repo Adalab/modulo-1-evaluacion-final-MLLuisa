@@ -37,6 +37,10 @@
     text-transform: capitalize;  
  }
 
+ .button-third-section:hover {
+     background-color: orange;
+ }
+
  @media all and (min-width: 1728px) {
     .main-wrapper-third-fourth-section {
         display: flex;
