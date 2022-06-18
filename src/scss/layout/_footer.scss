@@ -62,26 +62,16 @@ a {
     justify-content: space-around;
 }
 
-.arrow {
-    border: solid $secundary-color;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    bottom: 5px;
-    padding: 3px;
-}
-
-.arrow-footer {
+.fa-arrow-up {
     position: absolute;
     bottom: 50px;
-    right: 50px;
+    right: 10%;
+    font-size: 24px;
+    color: $secundary-color;
+    cursor: pointer;
     @media all and (min-width: 900px) {
         bottom: 100px;
     }
-}
-
-.up {
-    transform: rotate(-135deg);
-    -webkit-transform: rotate(-135deg);
 }
 
 
